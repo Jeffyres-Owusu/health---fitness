@@ -1,0 +1,102 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  height: 100vh;
+  width: 100vw;
+  /* object-fit: fill; */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  /* place-items: center; */
+  /* place-items: center; */
+  background-color: rgb(37, 36, 36);
+}
+.container {
+  display: flex;
+  align-items: center;
+  width: 580px;
+  height: 250px;
+
+  background-color: rgb(6, 4, 4);
+  color: white;
+  gap: 50px;
+  border-radius: 4px;
+  /* aspect-ratio: 16/9;
+flex: 1; */
+}
+
+.image {
+  flex: 0 0 160px;
+  margin-left: 6px;
+  border-radius: 5px;
+}
+
+.image:hover {
+  height: 240px;
+  cursor: pointer;
+}
+
+.text-img {
+  margin-left: 20px;
+  width: 450px;
+}
+
+.diet-inbox {
+  margin-bottom: 12px;
+  font-size: 30px;
+}
+.eat-better {
+  margin-top: 15px;
+  font-size: 10px;
+}
+.email-sub {
+  display: flex;
+  margin-top: 20px;
+  gap: 20px;
+}
+
+.email-box {
+  background-color: black;
+  color: aliceblue;
+  border: 1px solid rgb(112, 117, 121);
+  border-radius: 4px;
+  padding: 10px;
+}
+
+.sub {
+  padding: 10px;
+  background-color: greenyellow;
+  border-radius: 5px;
+  border: 1px solid;
+}
+
+.sub:hover {
+  background: rgb(75, 107, 1);
+  cursor: pointer;
+}
+article p:first-child {
+  font: size 3px;
+}
+
+/* @media all and (min-width: 600px) {
+.container {
+   width: 50%; 
+   height: 50%;
+  }
+} 
+@media only scren and (max-width: 600px) {
+.container {
+   width: 50%; 
+   height: 50%;
+  }
+}
+@media only screen and (max-width: 800px) {
+  .container {
+    
+  height: 50%;
+}
+} */
